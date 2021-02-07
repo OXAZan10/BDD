@@ -1,0 +1,28 @@
+{
+  "name": "atm_hw_10",
+  "version": "1.0.0",
+  "description": "BDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor ./test/config/protractor_config.js",
+    "postinstall": "webdriver-manager update"
+  },
+  "keywords": [
+    "BDD"
+  ],
+  "author": "Aksana_Zanko@epam.com",
+  "license": "ISC",
+  "dependencies": {
+    "chai-as-promised": "^7.1.1",
+    "cucumber-html-reporter": "^5.3.0",
+    "cucumber-pretty": "^6.0.0",
+    "fs-extra": "^9.1.0",
+    "mocha": "^8.2.1",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.0",
+    "cucumber": "^6.0.2",
+    "protractor-cucumber-framework": "^6.2.1"
+  }
+}
